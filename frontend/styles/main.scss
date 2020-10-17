@@ -1,0 +1,429 @@
+    html{
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color: #ffffff;
+        font-family: 'Assistant', sans-serif;
+        color: #071C4D;
+    }
+    
+    // navbar
+    .navbar-brand {
+        img {
+            max-height: 40px;
+        }
+    }
+    
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #071C4D;
+                &.active {
+                    font-weight: bold;
+                    color: #071C4D !important;
+                }
+            }
+        }
+    }
+    
+    .btn-navbar-right {
+        margin-top: -10px !important;
+        margin-bottom: -8px !important;
+        margin-right: -18px !important;
+        height: 70px;
+        border-radius: 0;
+    }
+    
+    .btn-login {
+        color: #ffffff;
+        background: #071C4D;
+        &:hover {
+            color: #ffffff;
+            background: #133482;
+        }
+    }
+    
+    //header
+    header {
+        padding: 180px 0 165px;
+        margin-top: -70px;
+        background-image: url('../images/header-background.png');
+        background-size: cover;
+        h1,
+        p {
+            color: #ffffff;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        p {
+            font-size: 22px;
+        }
+        .btn-get-started {
+            background-color: #FF9E53;
+            color: #ffffff;
+            &:hover {
+                background-color: #FAA96A;
+                color: #ffffff;
+            }
+        }
+    }
+    
+    //statistik
+    .section-stats {
+        margin-top: -50px;
+        .stats-detail {
+            padding-top: 15px;
+            background-color: #ffffff;
+            padding-left: 60px;
+        }
+        .h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+        .p {
+            font-size: 20px;
+            font-weight: lighter;
+        }
+    }
+    
+    //popular wisata
+    .section-popular {
+        min-height: 540px;
+        background-color: #071C4D;
+        margin-top: -51px;
+        margin-bottom: -230px;
+        .section-popular-heading {
+            margin-top: 100px;
+            h2 {
+                font-family: 'Playfair Display', serif;
+                font-weight: bold;
+                font-size: 40px;
+                color: #ffffff;
+            }
+            p {
+                font-size: 18px;
+                color: #ffffff;
+            }
+        }
+    }
+    
+    .section-popular-content {
+        .section-popular-travel {
+            .card-travel {
+                min-height: 380px;
+                background-color: #dddddd;
+                color: #ffffff;
+                padding: 30px;
+                background-size: cover;
+                margin-bottom: 20px;
+            }
+            .travel-country {
+                font-size: 18px;
+                color: #ffffff;
+            }
+            .travel-location {
+                font-size: 26px;
+                color: #ffffff;
+            }
+            .travel-button {
+                .btn-travel-details {
+                    background-color: #FF9E53;
+                    color: #ffffff;
+                    &:hover {
+                        background-color: #FAA96A;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    
+    .section-network {
+        background-color: #ffffff;
+        margin-top: -170px;
+        padding-top: 250px;
+        padding-top: 240px;
+        padding-bottom: 50px;
+        h2 {
+            font-family: 'Playfair display';
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    
+    .section-testimonial-heading {
+        background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FF 100%);
+        padding-top: 50px;
+        min-height: 500px;
+        h2 {
+            font-family: 'Playfair display';
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    
+    .section-popular-travel {
+        margin-top: -300px;
+        padding-bottom: 50px;
+        .card-testimonial {
+            padding: 40px 20px 10px;
+            border-radius: 11px;
+            margin-bottom: 20px;
+            .testimonial-content {
+                min-height: 380px;
+            }
+            h3 {
+                font-size: 22px;
+            }
+            .testimonial {
+                font-weight: 200;
+                font-size: 26px;
+                color: #8E8C8C;
+                min-height: 150px;
+            }
+            .trip-to {
+                font-weight: normal;
+                font-size: 22px;
+                color: #8E8C8C;
+            }
+            hr {
+                margin-left: -20px;
+                margin-right: -20px;
+            }
+        }
+        .btn-need-help {
+            background-color: #F2f2f2;
+            color: #cecece;
+            &:hover {
+                background-color: #fafafa;
+                color: #cecece;
+            }
+        }
+        .btn-get-started {
+            background-color: #FF9E53;
+            color: #ffffff;
+            &:hover {
+                background-color: #FAA96A;
+                color: #ffffff;
+            }
+        }
+    }
+    
+    .section-footer {
+        a {
+            color: #071C4D;
+        }
+    }
+    
+    .section-details-header {
+        min-height: 310px;
+        background: #E4E6EB;
+        margin-top: -70px;
+    }
+    
+    .section-details-content {
+        margin-top: -210px;
+        min-height: 100vh;
+        .breadcrumb {
+            background-color: transparent;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .breadcrumb-item {
+            &.active {
+                font-weight: bold;
+                color: #071C4D;
+            }
+        }
+        .card-details {
+            padding: 30px;
+            border-radius: 11;
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 12px;
+                color: #b1b1b1;
+            }
+            h3 {
+                font-family: assistant;
+                font-weight: 300;
+                font-size: 14px;
+            }
+            .trip-informations {
+                th {
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #133482;
+                }
+                td {
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #b1b1b1;
+                }
+                .text-blue {
+                    color: #112a63;
+                    font-weight: bold;
+                }
+                .text-orange {
+                    color: #FF9E53;
+                    font-weight: bold;
+                }
+            }
+            .payment-intructions {
+                font-weight: 300;
+                font-size: 14px;
+                color: #b1b1b1;
+            }
+            .bank {
+                .bank-item {
+                    h3 {
+                        font-size: 18px;
+                        color: #071C4D;
+                        margin-bottom: 0;
+                    }
+                    p {
+                        margin-bottom: 0;
+                    }
+                    .description {
+                        margin-left: 10px;
+                        overflow: hidden;
+                        float: left;
+                        p {
+                            font-weight: normal;
+                            font-size: 16px;
+                            color: #071C4D;
+                        }
+                    }
+                }
+                .bank-image {
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                }
+            }
+            .disclaimer {
+                font-weight: 300;
+                font-size: 14px;
+                color: #b1b1b1;
+            }
+            .gj-datepicker {
+                .datepicker {
+                    border-right: 0;
+                }
+                .input-group-append {
+                    .btn {
+                        padding-right: 30px;
+                    }
+                }
+            }
+            .btn-add-now {
+                background-color: #071C4D;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #112a63;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .card-right {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom: 0;
+        }
+        .features {
+            margin-top: 20px;
+            h3 {
+                font-size: 18px;
+                color: #071C4D;
+                margin-bottom: 0;
+            }
+            p {
+                margin-bottom: 0;
+            }
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+            }
+            .features-image {
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
+        }
+        .gallery {
+            .xzoom-container {
+                display: block;
+                .xzoom {
+                    width: 100%;
+                    box-shadow: none;
+                    margin-bottom: 10px;
+                }
+                .xactive {
+                    border: 4px solid #133482;
+                    box-shadow: none;
+                }
+            }
+        }
+        .members {
+            .members-image {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .join-container {
+            margin-top: -16px;
+        }
+        .btn-join-now {
+            color: #FFFFFF;
+            background-color: #FF9E53;
+            border-radius: 0;
+            &:hover {
+                color: #FFFFFF;
+                background-color: #FAA96A;
+                border-radius: 0;
+            }
+        }
+    }
+    
+    // success page
+    .section-success {
+        height: 90vh;
+        h1 {
+            font-weight: 600;
+            font-size: 20px;
+            color: #071C4D;
+            font-family: Assistant;
+        }
+        p {
+            font-weight: 300;
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+        .btn-home-page {
+            border-radius: 4;
+            background-color: #071C4D;
+            color: #FFFFFF;
+            &:hover {
+                color: #FFFFFF;
+                background-color: #133482;
+            }
+        }
+    }
